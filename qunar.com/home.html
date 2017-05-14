@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+		<title>qunar.com home page</title>
+		<link rel="stylesheet" type="text/css" href="css/common.css" >
+	</head>
+	<body>
+		<!-- 图片轮播 -->
+		<div class="carousel">
+			<ul class="carousel-content carousel-animate clearfix">
+				<li class="carousel-panel">
+					<a href="javascript:void(0)">
+						<img src="img/carousel1.png" alt="">
+					</a>
+				</li>
+				<li class="carousel-panel">
+					<a href="javascript:void(0)">
+						<img src="img/carousel2.png" alt="">
+					</a>
+				</li>
+				<li class="carousel-panel">
+					<a href="javascript:void(0)">
+						<img src="img/carousel3.png" alt="">
+					</a>
+				</li>
+				<li class="carousel-panel">
+					<a href="javascript:void(0)">
+						<img src="img/carousel4.png" alt="">
+					</a>
+				</li>
+				<li class="carousel-panel">
+					<a href="javascript:void(0)">
+						<img src="img/carousel5.png" alt="">
+					</a>
+				</li>
+			</ul>
+			<ul class="carousel-mark clearfix">
+				<li class="carousel-mark-active"></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+			</ul>
+		</div>
+		<!-- 导航块 -->
+		<div class="nav">
+			<ul>
+				<li>
+					<a class="nav-item nav-item-col1" href="javascript:void(0)">公寓</a>
+					<a class="nav-item nav-item-col1" href="javascript:void(0)">钟点房</a>
+					<a class="nav-item nav-item-col1 nav-item-color-violet" 
+						href="javascript:void(0)">接送车辆</a>
+					<a class="nav-item nav-item-col1 nav-item-color-violet" 
+						href="javascript:void(0)">特价机票</a>
+				</li>
+				<li>
+					<a class="nav-item nav-item-col2 nav-item-row2" 
+						href="javascript:void(0);">酒店</a>
+					<a class="nav-item nav-item-col2 
+								nav-item-row2 nav-item-color-violet" 
+						href="javascript:void(0);">机票</a>
+				</li>
+				<li>
+					<a class="nav-item nav-item-col2" href="javascript:void(0);">今日特惠</a>
+					<a class="nav-item nav-item-col2 nav-item-color-blue" 
+						href="javascript:void(0);">旅游度假</a>
+				</li>
+				<li>
+					<a class="nav-item nav-item-col2 nav-item-color-orange" 
+						href="javascript:void(0);">景点门票</a>
+					<a class="nav-item nav-item-col2 nav-item-color-blue" 
+						href="javascript:void(0);">团购</a>
+				</li>
+				<li>
+					<a class="nav-item nav-item-col2 nav-item-color-orange" 
+						href="javascript:void(0);">用车自驾</a>
+					<a class="nav-item nav-item-col2 nav-item-color-palegreen" 
+						href="javascript:void(0);">攻略</a>
+				</li>
+				<li>
+					<a class="nav-item nav-item-col2 nav-item-color-green" 
+						href="javascript:void(0);">周末游</a>
+					<a class="nav-item nav-item-col2 nav-item-color-palegreen" 
+						href="javascript:void(0);">惠玩当地</a>
+				</li>
+				<li>
+					<a class="nav-item nav-item-col2 nav-item-color-green" 
+						href="javascript:void(0);">火车票</a>
+					<a class="nav-item nav-item-col1 nav-item-color-cyan" 
+						href="javascript:void(0);">签证</a>
+					<a class="nav-item nav-item-col1 nav-item-color-cyan" 
+						href="javascript:void(0);">骆驼书</a>
+				</li>
+			</ul>
+		</div>
+		<!-- 页脚 -->
+		<div class="footer">
+			<a href="javascript:void(0)" class="footer-item">登录</a>
+			<a href="javascript:void(0)" class="footer-item">我的订单</a>
+			<a href="javascript:void(0)" class="footer-item">最近浏览</a>
+		</div>
+		<script type="text/javascript" src="js/lib/hammer.min.js"></script>
+		<script type="text/javascript" src="js/lib/zepto.min.js"></script>
+		<script type="text/javascript" src="js/main.js"></script>
+		<script type="text/javascript">
+			Zepto(function($){
+			   //alert('Ready to Zepto!')
+			   /*轮播图片*/
+			   base.carousel(5,true);
+			   /*导航块的翻转动画*/
+			   base.navRotate3d();
+			   //练习才会这么写的,跳转list.html
+			   $(document).on("click",".nav a",function(e){
+			   		location.href="list.html";
+			   });
+			});
+		</script>
+	</body>
+</html>
