@@ -28,8 +28,8 @@
     
     (不同的样式只需要补充加入一个class类名就可以切换样式)
     
-![github](https://raw.githubusercontent.com/tm-roamer/practice/master/doc/home-360.jpg "示例图片")
-![github](https://raw.githubusercontent.com/tm-roamer/practice/master/doc/list-360.jpg "示例图片")
-![github](https://raw.githubusercontent.com/tm-roamer/practice/master/doc/list-search-360.jpg "示例图片")
-![github](https://raw.githubusercontent.com/tm-roamer/practice/master/doc/detail-360.jpg "示例图片")
+![github](https://raw.githubusercontent.com/tm-roamer/practice_qunar/master/doc/home-360.jpg "示例图片")
+![github](https://raw.githubusercontent.com/tm-roamer/practice_qunar/master/doc/list-360.jpg "示例图片")
+![github](https://raw.githubusercontent.com/tm-roamer/practice_qunar/master/doc/list-search-360.jpg "示例图片")
+![github](https://raw.githubusercontent.com/tm-roamer/practice_qunar/master/doc/detail-360.jpg "示例图片")
 
